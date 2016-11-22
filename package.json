@@ -18,5 +18,8 @@
   "homepage": "https://github.com/cathleenfang/tryone#readme",
   "devDependencies": {
     "express": "^4.14.0"
+  },
+  "dependencies": {
+    "jade": "^1.11.0"
   }
 }
