@@ -1,0 +1,22 @@
+{
+  "name": "tryone",
+  "version": "1.0.0",
+  "description": "build a project for myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathleenfang/tryone.git"
+  },
+  "author": "fang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cathleenfang/tryone/issues"
+  },
+  "homepage": "https://github.com/cathleenfang/tryone#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
