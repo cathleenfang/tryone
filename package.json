@@ -4,6 +4,7 @@
   "description": "build a project for myself",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "make test"
   },
   "repository": {

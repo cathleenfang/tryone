@@ -9,5 +9,6 @@ build a new project for test 2016/11/22
 6、npm install multer --save 用于处理 enctype="multipart/form-data"（设置表单的MIME编码）的表单数据
 7、app.js 设置express路由 8081端口号进行监听 127.0.0.1（localhost或0.0.0.0）本机ip地址 
 8、dev存放静态文件（css js images）--html放在里面 app.js添加一个路由 则可直接访问html
-9、npm install jade 使用jade模板渲染引擎
-10、views存放pugs
+9、npm install pug 使用pug模板渲染引擎
+10、把pugs放在dev目录下面 app.js设置路径进行渲染 
+11、package.json设置npm start 代替node app.js 运行项目
