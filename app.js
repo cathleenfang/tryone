@@ -1,22 +1,21 @@
 'usr strict'
 
 var express = require('express');
-// var http = require('http');
-// var path = require('path');
-// var fs = require('fs');
 
 var app = express();
 
+//存放静态文件
+app.use(express.static('dev'));
+
+app.set('view engine', 'pug');
+app.set('views', './views')
+
 app.get('/', function (req, res) {
-  res.send('Hello world!');
+  res.send('Hello world ew!');
 });
-app.listen(3000);
-// //设置jade为渲染引擎
-// app.set('view engine', 'jade');
-// app.set('views', '/dev')
 
-// app.get('/', function (req, res) {
-//     res.render(index);
-// });
+app.get('/index', function (req, res) {
+  res.render('index', { title: 'Hey', message: 'Hello there!'});
+});
 
-// app.listen(3333);
+app.listen(8081);
